@@ -1,0 +1,1 @@
+E:\Bochs-2.3\bochsdbg.exe -q -f bochsrc.bxrc
