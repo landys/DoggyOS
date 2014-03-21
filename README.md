@@ -8,6 +8,8 @@ It's a tiny operation system on floppy for PC. It's the Advanced OS course proje
 
 doggy中包含完整软盘镜像DOGGY.IMG，一些辅助运行的脚本，可在gcc下编译的源代码和makefile（gcc-3.3.6下通过）。
 
+代码基于于渊的《自己动手写操作系统》开发，并且包含其部分源码。
+
 ##
 
 运行OS的方法有多种，可如下：
