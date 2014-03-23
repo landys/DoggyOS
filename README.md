@@ -32,3 +32,11 @@ doggy中包含完整软盘镜像DOGGY.IMG，一些辅助运行的脚本，可在
 Doggy提供一些API支持应用程序开发，包括系统调用和一些通用函数，基中系统调用主要包括get_ticks，write，exec，_exit，kill，get_all_files，malloc，free。理论上支持所有用上面API实现的用户程序，gcc编译，即可在Doggy上运行。具体方法可参数可执行程序pa，pb，pc，pd的开发。
 
 2008-01-23 01:21
+
+## Snapshots
+![Boot][img_boot]
+
+![Commands][img_commands]
+
+[img_boot]: https://raw.github.com/landys/DoggyOS/master/docs/snapshots/boot.png "Boot"
+[img_commands]: https://raw.github.com/landys/DoggyOS/master/docs/snapshots/commands.png "Some commands"

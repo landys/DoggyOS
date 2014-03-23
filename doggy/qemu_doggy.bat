@@ -1,4 +1,7 @@
-cd E:\OS\qemu\qemu-0.9.0-windows
+set QEMU_PATH="D:\qemu\qemu-0.9.0-windows"
+set DOGGY_IMAGE_PATH="D:\codes\Github\DoggyOS\doggy\DOGGY.IMG"
+
+cd /d %QEMU_PATH%
 
 REM Start qemu on windows.
 @ECHO OFF
@@ -19,4 +22,4 @@ REM PCI-based PC(default): -M pc
 REM ISA-based PC         : -M isapc
 REM -M isapc is added for NE2000 ISA card.
 
-qemu.exe -L . -m 32 -fda E:\OS\doggy\DOGGY.IMG -soundhw all -localtime -M isapc
+qemu.exe -L . -m 32 -fda %DOGGY_IMAGE_PATH% -soundhw all -localtime -M isapc
